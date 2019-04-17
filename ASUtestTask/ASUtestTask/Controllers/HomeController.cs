@@ -22,14 +22,14 @@ namespace ASUtestTask.Controllers
 
         [HttpGet]
         [Route("api/v1/person/{id}")]
-        public Person getPersonInfo(int id)
+        public Person getPersonInfo(long id)
         {
             return personController.getPersonInfo(id);
         }
 
         [HttpDelete]
         [Route("api/v1/person/{id}")]
-        public ActionResult removePerson(int id)
+        public ActionResult removePerson(long id)
         {
 
             return personController.removePerson(id);

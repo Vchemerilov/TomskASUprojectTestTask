@@ -31,7 +31,7 @@ namespace ASUtestTask.Controllers
             }
         }
 
-        public Person getPersonInfo(int id)
+        public Person getPersonInfo(long id)
         {
             try
             {
@@ -52,7 +52,7 @@ namespace ASUtestTask.Controllers
             }
         }
 
-        public ActionResult removePerson(int id)
+        public ActionResult removePerson(long id)
         {
             try
             {

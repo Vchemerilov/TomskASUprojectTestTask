@@ -8,9 +8,9 @@ namespace ASUtestTask.Controllers
     {
         List<Person> getPersonsInfo();
 
-        Person getPersonInfo(int id);
+        Person getPersonInfo(long id);
 
-        ActionResult removePerson(int id);
+        ActionResult removePerson(long id);
 
         ActionResult addPerson(Person Person);
 
